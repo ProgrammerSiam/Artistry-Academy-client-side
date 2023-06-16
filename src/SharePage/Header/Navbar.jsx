@@ -8,9 +8,6 @@ const Navbar = () => {
   const navMenu = (
     <>
       <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
         <Link to={"/Instructors"}>Instructors</Link>
       </li>
       <li>
@@ -74,16 +71,18 @@ const Navbar = () => {
             {navMenu}
           </ul>
         </div>
-        <div className="flex items-center">
-          <img
-            className="w-24"
-            src="https://i.ibb.co/PgLk782/music.png"
-            alt=""
-          />
-          <h3 className="-ml-6 font-serif font-semibold brandName">
-            Music Class
-          </h3>
-        </div>
+        <Link to="/">
+          <div className="flex items-center">
+            <img
+              className="w-24"
+              src="https://i.ibb.co/PgLk782/music.png"
+              alt=""
+            />
+            <h3 className="-ml-6 font-serif font-semibold brandName">
+              Music Class
+            </h3>
+          </div>
+        </Link>
       </div>
       <div className="hidden navbar-center lg:flex">
         <ul className="items-center justify-center px-1 text-lg font-semibold menu menu-horizontal">
