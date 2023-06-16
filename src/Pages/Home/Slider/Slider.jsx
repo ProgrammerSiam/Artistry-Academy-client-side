@@ -3,7 +3,7 @@ import { FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 const Slider = () => {
   return (
-    <div className="w-full  carousel mt-10  ">
+    <div className="w-full  carousel  rounded ">
       <div id="slide1" className="relative w-full carousel-item">
         <img
           src="
