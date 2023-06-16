@@ -52,8 +52,8 @@ const SignUp = () => {
       {/* <Helmet>
                 <title>Sign Up</title>
             </Helmet> */}
-      <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="min-h-screen hero bg-base-200">
+        <div className="flex-col hero-content lg:flex-row-reverse">
           <div className="text-center lg:text-left">
             <Lottie
               className="h-[700px]"
@@ -63,7 +63,7 @@ const SignUp = () => {
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 h-[80vh] overflow-y-auto">
             <form
               onSubmit={handleSubmit(onSubmit)}
-              className="-mb-0 flex flex-col items-center p-4"
+              className="flex flex-col items-center p-4 -mb-0"
             >
               <div className="form-control ">
                 <label className="label">
@@ -142,7 +142,7 @@ const SignUp = () => {
                 </div>
                 <button
                   onClick={() => setHidePass(!hidePass)}
-                  className="flex  items-center gap-1 ml-3 my-2"
+                  className="flex items-center gap-1 my-2 ml-3"
                 >
                   {/*  */}
                   {hidePass ? (
@@ -200,17 +200,17 @@ const SignUp = () => {
                   {...register("address")}
                 />
               </div>
-              <div className="form-control mt-6">
+              <div className="mt-6 form-control">
                 <input
-                  className="btn btn-primary w-80"
+                  className="text-black border btn w-80"
                   type="submit"
                   value="Sign Up"
                 />
               </div>
             </form>
-            <p className="text-sm ml-5">
+            <p className="ml-5 text-sm">
               Already have An Account ?{" "}
-              <Link to="/login" className="underline text-blue-500">
+              <Link to="/login" className="text-blue-500 underline">
                 Login
               </Link>
             </p>
