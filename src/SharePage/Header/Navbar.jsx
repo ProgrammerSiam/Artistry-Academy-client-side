@@ -74,12 +74,12 @@ const Navbar = () => {
         <Link to="/">
           <div className="flex items-center">
             <img
-              className="w-24"
-              src="https://i.ibb.co/PgLk782/music.png"
+              className="w-24 rounded"
+              src="https://i.ibb.co/yNk1JRm/logojpeg.jpg"
               alt=""
             />
-            <h3 className="-ml-6 font-serif font-semibold brandName">
-              Music Class
+            <h3 className="ml-6 font-serif font-semibold brandName">
+              Artistry Academy
             </h3>
           </div>
         </Link>
