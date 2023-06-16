@@ -4,11 +4,15 @@ const Footer = () => {
   return (
     <footer className="p-10 bg-white shadow-slate-900 footer text-base-content">
       <div>
-        <img className="w-36" src="https://i.ibb.co/PgLk782/music.png" alt="" />
+        <img
+          className="w-36"
+          src="https://i.ibb.co/yNk1JRm/logojpeg.jpg"
+          alt=""
+        />
         <p>
-          ACME Music Ltd.
+          Artistry Academy Ltd.
           <br />
-          Providing reliable tech since 1992
+          Providing reliable tech since 1995
         </p>
       </div>
       <div>
