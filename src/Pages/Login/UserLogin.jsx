@@ -5,8 +5,8 @@ import SocalLogin from "../../SharePage/SocalLogin/SocalLogin";
 import useAuth from "../../UseHooks/useAuth/useAuth";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import Swal from "sweetalert2";
-import Lottie from "lottie-react";
-import loginAnimation from "../../assets/132033-green-login.json";
+// import Lottie from "lottie-react";
+// import loginAnimation from "../../assets/132033-green-login.json";
 
 const UserLogin = () => {
   const { login } = useAuth();
@@ -52,14 +52,14 @@ const UserLogin = () => {
       .catch((error) => console.log(error));
   };
   return (
-    <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content flex-col lg:flex-row-reverse">
-        <div className="text-center lg:text-left">
+    <div className="min-h-screen hero bg-base-200">
+      <div className="flex-col hero-content lg:flex-row-reverse">
+        {/* <div className="text-center lg:text-left">
           <Lottie animationData={loginAnimation}></Lottie>
-        </div>
-        <div className="card  p-2 w-full max-w-sm shadow-2xl space-y-0 bg-base-100">
+        </div> */}
+        <div className="w-full max-w-sm p-2 space-y-0 shadow-2xl card bg-base-100">
           <form onSubmit={handleSubmit(onSubmit)} className="-mb-0">
-            <div className="form-control -mt-16">
+            <div className="-mt-16 form-control">
               <label className="label">
                 <span className="label-text">Email</span>
               </label>
@@ -71,7 +71,7 @@ const UserLogin = () => {
                 required
               />
             </div>
-            <div className="form-control space-y-0">
+            <div className="space-y-0 form-control">
               <label className="label">
                 <span className="label-text">Password</span>
               </label>
@@ -85,7 +85,7 @@ const UserLogin = () => {
                 />
                 <span
                   onClick={() => setHidePass(!hidePass)}
-                  className="absolute top-6  right-5"
+                  className="absolute top-6 right-5"
                 >
                   {hidePass ? <FaEyeSlash /> : <FaEye />}{" "}
                 </span>
@@ -96,15 +96,15 @@ const UserLogin = () => {
                 </a>
               </label>
             </div>
-            <div className="form-control mt-2">
+            <div className="mt-2 form-control">
               <input
-                className="btn w-full bg-slate-700 text-white hover:text-black "
+                className="w-full text-black border cursor-pointer "
                 type="submit"
                 value="LOGIN"
               />
               <p className="text-sm">
                 Create a Accout{" "}
-                <Link to="/signup" className="underline text-blue-400">
+                <Link to="/signup" className="text-blue-400 underline">
                   Sign Up
                 </Link>
               </p>

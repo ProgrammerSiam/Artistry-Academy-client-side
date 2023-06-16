@@ -42,10 +42,10 @@ const SocalLogin = () => {
   return (
     <div className="p-3">
       <button
-        className="w-full flex justify-center items-center gap-2 capitalize  "
+        className="flex items-center justify-center w-full gap-2 capitalize "
         onClick={handleGoogleLogin}
       >
-        <FaGoogle className="text-red-800 text-2xl" />
+        <FaGoogle className="text-2xl text-danger" />
         continue with google
       </button>
     </div>
