@@ -41,7 +41,7 @@ const ClassList = ({ classes, refetch }) => {
           console.log("data", data);
           refetch();
           setDisableBtn(true);
-          Swal.fire("Your file has been deleted.", "success");
+          Swal.fire("Your class has been selected.", "success");
         }
       });
   };
@@ -57,13 +57,13 @@ const ClassList = ({ classes, refetch }) => {
       >
         <figure>
           <img
-            className="w-96 h-72 rounded-md"
+            className="w-96 h-72  rounded object-cover"
             src={classes.image}
             alt="Shoes"
           />
         </figure>
 
-        <div className="card-body">
+        <div className="card-body h-100 ">
           <h2 className="card-title">Tutorial : {classes.name}</h2>
           <h2 className="card-title">
             Instructor : {classes.instructors_Name}
@@ -79,7 +79,7 @@ const ClassList = ({ classes, refetch }) => {
               classes.seats == 0
             }
             onClick={handleSelectCourse}
-            className="btn btn-primary"
+            className="btn border"
           >
             Select class
           </button>
