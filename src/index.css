@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-btn{
+    @apply btn font-sans font-bold bg-gradient-to-r from-pink-400 to-blue-400 border-0 
+}
+.style-btn{
+    @apply border-2 bg-transparent font-bold border-green-800 text-black rounded py-1  text-xs hover:bg-pink-500 hover:border-0  
+}
+.text-input{
+    @apply input input-bordered w-80 
+}

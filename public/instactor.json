@@ -1,0 +1,127 @@
+[
+    {
+        "name": "John Smith",
+        "image": "https://i.ytimg.com/vi/bDxzk8g2bUk/sddefault.jpg",
+        "email": "johnsmith@example.com",
+        "classes": [
+            {
+                "name": "Piano Fundamentals",
+                "image": "https://i.ytimg.com/vi/bDxzk8g2bUk/sddefault.jpg",
+                "seats": "20",
+                "instructors_Name": "John Smith",
+                "instructors_email": "johnsmith@gmail.com",
+                "description": "This class is designed for beginners who want to learn how to play the piano. Students will learn basic music theory, hand placement, and essential techniques. By the end of the class, students will be able to play simple melodies and read sheet music.",
+                "price": "200",
+                "duration": "8 weeks",
+                "schedule": "Mondays and Wednesdays, 6:00 PM - 7:30 PM"
+            },
+            {
+                "name": "Piano Fundamentals",
+                "image": "https://i.ytimg.com/vi/bDxzk8g2bUk/sddefault.jpg",
+                "seats": "20",
+                "instructors_Name": "John Smith",
+                "description": "This class is designed for beginners who want to learn how to play the piano. Students will learn basic music theory, hand placement, and essential techniques. By the end of the class, students will be able to play simple melodies and read sheet music.",
+                "price": "200",
+                "duration": "8 weeks",
+                "schedule": "Mondays and Wednesdays, 6:00 PM - 7:30 PM"
+            },
+            {
+                "name": "Piano Fundamentals",
+                "image": "https://i.ytimg.com/vi/bDxzk8g2bUk/sddefault.jpg",
+                "seats": "20",
+                "instructors_Name": "John Smith",
+                "description": "This class is designed for beginners who want to learn how to play the piano. Students will learn basic music theory, hand placement, and essential techniques. By the end of the class, students will be able to play simple melodies and read sheet music.",
+                "price": "200",
+                "duration": "8 weeks",
+                "schedule": "Mondays and Wednesdays, 6:00 PM - 7:30 PM"
+            },
+            {
+                "name": "Piano Fundamentals",
+                "image": "https://i.ytimg.com/vi/bDxzk8g2bUk/sddefault.jpg",
+                "seats": "20",
+                "instructors_Name": "John Smith",
+                "description": "This class is designed for beginners who want to learn how to play the piano. Students will learn basic music theory, hand placement, and essential techniques. By the end of the class, students will be able to play simple melodies and read sheet music.",
+                "price": "200",
+                "duration": "8 weeks",
+                "schedule": "Mondays and Wednesdays, 6:00 PM - 7:30 PM"
+            },
+            {
+                "name": "Piano Fundamentals",
+                "image": "https://i.ytimg.com/vi/bDxzk8g2bUk/sddefault.jpg",
+                "seats": "20",
+                "instructors_Name": "John Smith",
+                "description": "This class is designed for beginners who want to learn how to play the piano. Students will learn basic music theory, hand placement, and essential techniques. By the end of the class, students will be able to play simple melodies and read sheet music.",
+                "price": "200",
+                "duration": "8 weeks",
+                "schedule": "Mondays and Wednesdays, 6:00 PM - 7:30 PM"
+            },
+            {
+                "name": "Piano Fundamentals",
+                "image": "https://i.ytimg.com/vi/bDxzk8g2bUk/sddefault.jpg",
+                "seats": "20",
+                "instructors_Name": "John Smith",
+                "description": "This class is designed for beginners who want to learn how to play the piano. Students will learn basic music theory, hand placement, and essential techniques. By the end of the class, students will be able to play simple melodies and read sheet music.",
+                "price": "200",
+                "duration": "8 weeks",
+                "schedule": "Mondays and Wednesdays, 6:00 PM - 7:30 PM"
+            }
+        ]
+    },
+    {
+        "name": "John Smith",
+        "image": "https://i.ytimg.com/vi/bDxzk8g2bUk/sddefault.jpg",
+        "email": "johnsmith@example.com",
+        "classes": [
+            {
+                "name": "Piano Fundamentals",
+                "image": "https://i.ytimg.com/vi/bDxzk8g2bUk/sddefault.jpg",
+                "seats": "20",
+                "instructors_Name": "John Smith",
+                "description": "This class is designed for beginners who want to learn how to play the piano. Students will learn basic music theory, hand placement, and essential techniques. By the end of the class, students will be able to play simple melodies and read sheet music.",
+                "price": "200",
+                "duration": "8 weeks",
+                "schedule": "Mondays and Wednesdays, 6:00 PM - 7:30 PM"
+            },
+            {
+                "name": "Piano Fundamentals",
+                "image": "https://i.ytimg.com/vi/bDxzk8g2bUk/sddefault.jpg",
+                "seats": "20",
+                "instructors_Name": "John Smith",
+                "description": "This class is designed for beginners who want to learn how to play the piano. Students will learn basic music theory, hand placement, and essential techniques. By the end of the class, students will be able to play simple melodies and read sheet music.",
+                "price": "200",
+                "duration": "8 weeks",
+                "schedule": "Mondays and Wednesdays, 6:00 PM - 7:30 PM"
+            },
+            {
+                "name": "Piano Fundamentals",
+                "image": "https://i.ytimg.com/vi/bDxzk8g2bUk/sddefault.jpg",
+                "seats": "20",
+                "instructors_Name": "John Smith",
+                "description": "This class is designed for beginners who want to learn how to play the piano. Students will learn basic music theory, hand placement, and essential techniques. By the end of the class, students will be able to play simple melodies and read sheet music.",
+                "price": "200",
+                "duration": "8 weeks",
+                "schedule": "Mondays and Wednesdays, 6:00 PM - 7:30 PM"
+            },
+            {
+                "name": "Piano Fundamentals",
+                "image": "https://i.ytimg.com/vi/bDxzk8g2bUk/sddefault.jpg",
+                "seats": "20",
+                "instructors_Name": "John Smith",
+                "description": "This class is designed for beginners who want to learn how to play the piano. Students will learn basic music theory, hand placement, and essential techniques. By the end of the class, students will be able to play simple melodies and read sheet music.",
+                "price": "200",
+                "duration": "8 weeks",
+                "schedule": "Mondays and Wednesdays, 6:00 PM - 7:30 PM"
+            },
+            {
+                "name": "Piano Fundamentals",
+                "image": "https://i.ytimg.com/vi/bDxzk8g2bUk/sddefault.jpg",
+                "seats": "20",
+                "instructors_Name": "John Smith",
+                "description": "This class is designed for beginners who want to learn how to play the piano. Students will learn basic music theory, hand placement, and essential techniques. By the end of the class, students will be able to play simple melodies and read sheet music.",
+                "price": "200",
+                "duration": "8 weeks",
+                "schedule": "Mondays and Wednesdays, 6:00 PM - 7:30 PM"
+            }
+        ]
+    }
+]
