@@ -42,11 +42,16 @@ const Slider = () => {
         />
         <div className="absolute flex items-center  bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)] w-full  h-full top-0 left-0 ">
           <div className="text-white space-y-7 lg:w-[900px] ml-12">
-            <h1 className="text-6xl font-extrabold">Harmonious Melodies </h1>
+            <h1 className="text-6xl font-extrabold">
+              Welcome to Creative Expressions,
+            </h1>
             <p className="capitalize">
-              Discover timeless classics and iconic models that car enthusiasts
-              will love. Build your dream collection with our range of vintage
-              and collectible cars.
+              At Creative Expressions, we believe that art is not just about
+              creating beautiful masterpieces but also about self-expression,
+              exploration, and personal growth. Our team of skilled and
+              passionate instructors is dedicated to providing a supportive and
+              encouraging environment where you can discover your artistic voice
+              and develop your skills.
             </p>
           </div>
         </div>
@@ -67,11 +72,16 @@ const Slider = () => {
         />
         <div className="absolute flex items-center  bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)] w-full  h-full top-0 left-0 ">
           <div className="text-white space-y-7 lg:w-[900px] ml-12">
-            <h1 className="text-6xl font-extrabold"> Mighty Machines!</h1>
+            <h1 className="text-6xl font-extrabold">
+              Welcome to Creative Palette,
+            </h1>
             <p className="capitalize">
-              Get behind the wheel of powerful construction vehicles and
-              heavy-duty trucks. Let your imagination soar as you build and
-              conquer the toughest jobs!
+              At Creative Palette, we offer a diverse range of art and craft
+              classes taught by talented instructors who are passionate about
+              their craft. Whether you're a beginner looking to explore your
+              artistic talents or an experienced artist seeking to refine your
+              skills, our courses are designed to cater to your unique needs and
+              goals.
             </p>
           </div>
         </div>
