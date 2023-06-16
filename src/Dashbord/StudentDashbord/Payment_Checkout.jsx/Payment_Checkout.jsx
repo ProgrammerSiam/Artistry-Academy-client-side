@@ -56,8 +56,9 @@ const Payment_Checkout = ({ course, price }) => {
 
     setProcessing(true);
 
-    const { paymentIntent, error: confirmError } =
-      await stripe.confirmCardPayment(clientSecret, {
+    const { paymentIntent, error: confirmError } = await stripe.paymentRequest(
+      clientSecret,
+      {
         payment_method: {
           card: card,
           billing_details: {
@@ -65,7 +66,8 @@ const Payment_Checkout = ({ course, price }) => {
             name: user?.displayName || "anonymous",
           },
         },
-      });
+      }
+    );
 
     if (confirmError) {
       console.log(confirmError);
@@ -148,7 +150,7 @@ const Payment_Checkout = ({ course, price }) => {
         <button
           className="mt-4 btn btn-primary btn-sm"
           type="submit"
-          // disabled={!stripe || processing}
+          disabled={!stripe || !clientSecret}
         >
           Pay
         </button>
