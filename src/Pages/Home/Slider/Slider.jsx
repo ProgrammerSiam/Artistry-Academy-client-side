@@ -6,7 +6,10 @@ const Slider = () => {
     <div className="w-full carousel">
       <div id="slide1" className="relative w-full carousel-item">
         <img
-          src="https://i.ibb.co/ZhdPkqZ/banner2.jpg"
+          src="
+          https://i.ibb.co/kJ3fZJM/img-5.jpg
+
+"
           className="w-full h-[calc(100vh-75px)]"
         />
 
@@ -37,7 +40,7 @@ const Slider = () => {
 
       <div id="slide2" className="relative w-full carousel-item">
         <img
-          src="https://i.ibb.co/qCzjpNP/claude-gabriel-yv-EVMy-Tz-MO4-unsplash.jpg"
+          src="https://i.ibb.co/PxDVp4D/img-4.jpg"
           className="w-full h-[calc(100vh-75px)]"
         />
         <div className="absolute flex items-center  bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)] w-full  h-full top-0 left-0 ">
@@ -67,7 +70,7 @@ const Slider = () => {
 
       <div id="slide3" className="relative w-full carousel-item">
         <img
-          src="https://i.ibb.co/ncmG7k8/simon-weisser-ph-S37wg8c-Qg-unsplash.jpg"
+          src="https://i.ibb.co/fnNLkQJ/img-3.jpg"
           className="w-full h-[calc(100vh-75px)]"
         />
         <div className="absolute flex items-center  bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)] w-full  h-full top-0 left-0 ">

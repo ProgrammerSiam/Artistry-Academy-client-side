@@ -1,14 +1,16 @@
-import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
+// import { CardElement, useElements } from "@stripe/react-stripe-js";
 import { useEffect } from "react";
 import { useState } from "react";
 import "./CheckOut.css";
 import useAuth from "../../../UseHooks/useAuth/useAuth";
 import useAxiosSecure from "../../../UseHooks/useAxiosSecure/useAxiosSecure";
 import { useNavigate } from "react-router-dom";
+import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 
 const Payment_Checkout = ({ course, price }) => {
-  // console.log(course)
   const stripe = useStripe();
+  console.log(stripe);
+
   const elements = useElements();
   const { user } = useAuth();
   const [axiosSecure] = useAxiosSecure();
@@ -144,14 +146,14 @@ const Payment_Checkout = ({ course, price }) => {
           }}
         />
         <button
-          className="btn btn-primary btn-sm mt-4"
+          className="mt-4 btn btn-primary btn-sm"
           type="submit"
-          disabled={!stripe || !clientSecret || processing}
+          // disabled={!stripe || processing}
         >
           Pay
         </button>
       </form>
-      {cardError && <p className="text-red-600 ml-8">{cardError}</p>}
+      {cardError && <p className="ml-8 text-red-600">{cardError}</p>}
       {transactionId && (
         <p className="text-green-500">
           Transaction complete with transactionId: {transactionId}
