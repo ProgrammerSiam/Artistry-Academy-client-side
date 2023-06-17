@@ -56,7 +56,7 @@ const My_Class = () => {
       <div className="overflow-x-auto">
         <table className="table">
           {/* head */}
-          <thead>
+          <thead className="bg-white border">
             <tr>
               <th>SN</th>
               <th>Banner</th>
@@ -92,7 +92,7 @@ const My_Class = () => {
                 </td>
                 <td>
                   <button className="bg-transparent hover:bg-transparent ">
-                    <FaPenAlt className="text-2xl text-error hover:text-blue-700" />
+                    <FaPenAlt className="text-2xl text-error  hover:text-black" />
                   </button>
                 </td>
 
