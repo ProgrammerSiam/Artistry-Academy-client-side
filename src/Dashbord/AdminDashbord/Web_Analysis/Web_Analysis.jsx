@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const Web_Analysis = () => {
-    return (
-        <div>
-            Web_Analysis
-        </div>
-    );
+  return <div>welcome Web_Analysis</div>;
 };
 
 export default Web_Analysis;

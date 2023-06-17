@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const AdminHome = () => {
-    return (
-        <div>
-            admin home
-        </div>
-    );
+  return <div>Welcome admin home</div>;
 };
 
 export default AdminHome;

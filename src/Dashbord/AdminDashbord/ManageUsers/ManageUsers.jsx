@@ -41,13 +41,13 @@ const ManageUsers = () => {
   };
 
   return (
-    <div>
+    <div className="py-10 mb-10">
       <h2 className="text-3xl text-center font-semibold"> All Users</h2>
       <div className="overflow-x-auto">
         <Fade>
           <table className="table">
             {/* head */}
-            <thead className="text-center">
+            <thead className="text-center bg-white border">
               <tr>
                 <th>SN</th>
                 <th>User</th>
@@ -76,7 +76,7 @@ const ManageUsers = () => {
                     <button
                       disabled={user.role === "admin"}
                       onClick={() => handlemakeAdmin(user)}
-                      className="btn btn-outline border-blue-700 text-blue-800 w-36"
+                      className="btn btn-outline  w-36"
                     >
                       {" "}
                       Make Admin

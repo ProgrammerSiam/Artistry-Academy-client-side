@@ -61,10 +61,10 @@ const ManageClass = () => {
   };
 
   return (
-    <div>
+    <div className="py-10 mb-10">
       <div className="overflow-x-auto">
         <table className="table table-zebra">
-          <thead>
+          <thead className="bg-white border">
             <tr>
               <th>SN</th>
               <th>Instuctor</th>
