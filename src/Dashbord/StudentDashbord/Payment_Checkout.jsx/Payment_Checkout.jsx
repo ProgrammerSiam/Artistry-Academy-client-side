@@ -75,7 +75,7 @@ const Payment_Checkout = ({ course, price }) => {
       setTransactionId(paymentIntent.id);
 
       fetch(
-        `https://summer-school-data.vercel.app/coursefeepayment/${course._id}`,
+        `https://server-mehediinfo10101-gmailcom.vercel.app/coursefeepayment/${course._id}`,
         {
           method: "PATCH",
         }
@@ -108,7 +108,7 @@ const Payment_Checkout = ({ course, price }) => {
           console.log("payment successful");
 
           fetch(
-            `https://summer-school-data.vercel.app/availableseats/${course.classID}`,
+            `https://server-mehediinfo10101-gmailcom.vercel.app/availableseats/${course.classID}`,
             {
               method: "PATCH",
             }
