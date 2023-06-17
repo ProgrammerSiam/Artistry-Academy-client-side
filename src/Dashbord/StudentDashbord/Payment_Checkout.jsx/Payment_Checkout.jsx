@@ -1,16 +1,14 @@
-// import { CardElement, useElements } from "@stripe/react-stripe-js";
+import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import { useEffect } from "react";
 import { useState } from "react";
 import "./CheckOut.css";
 import useAuth from "../../../UseHooks/useAuth/useAuth";
 import useAxiosSecure from "../../../UseHooks/useAxiosSecure/useAxiosSecure";
 import { useNavigate } from "react-router-dom";
-import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 
 const Payment_Checkout = ({ course, price }) => {
+  // console.log(course)
   const stripe = useStripe();
-  console.log(stripe);
-
   const elements = useElements();
   const { user } = useAuth();
   const [axiosSecure] = useAxiosSecure();
@@ -56,9 +54,8 @@ const Payment_Checkout = ({ course, price }) => {
 
     setProcessing(true);
 
-    const { paymentIntent, error: confirmError } = await stripe.paymentRequest(
-      clientSecret,
-      {
+    const { paymentIntent, error: confirmError } =
+      await stripe.confirmCardPayment(clientSecret, {
         payment_method: {
           card: card,
           billing_details: {
@@ -66,8 +63,7 @@ const Payment_Checkout = ({ course, price }) => {
             name: user?.displayName || "anonymous",
           },
         },
-      }
-    );
+      });
 
     if (confirmError) {
       console.log(confirmError);
@@ -79,7 +75,7 @@ const Payment_Checkout = ({ course, price }) => {
       setTransactionId(paymentIntent.id);
 
       fetch(
-        `https://server-mehediinfo10101-gmailcom.vercel.app/coursefeepayment/${course._id}`,
+        `https://summer-school-data.vercel.app/coursefeepayment/${course._id}`,
         {
           method: "PATCH",
         }
@@ -87,7 +83,7 @@ const Payment_Checkout = ({ course, price }) => {
         .then((res) => res.json())
         .then((data) => {
           console.log(data);
-          alert("paid");
+
           navigate("/dashbord/selectedcourse");
         });
 
@@ -112,7 +108,7 @@ const Payment_Checkout = ({ course, price }) => {
           console.log("payment successful");
 
           fetch(
-            `https://server-mehediinfo10101-gmailcom.vercel.app/availableseats/${course.classID}`,
+            `https://summer-school-data.vercel.app/availableseats/${course.classID}`,
             {
               method: "PATCH",
             }
@@ -150,7 +146,7 @@ const Payment_Checkout = ({ course, price }) => {
         <button
           className="mt-4 btn btn-primary btn-sm"
           type="submit"
-          disabled={!stripe || !clientSecret}
+          disabled={!stripe || !clientSecret || processing}
         >
           Pay
         </button>

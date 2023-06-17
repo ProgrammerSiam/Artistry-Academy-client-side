@@ -1,6 +1,5 @@
 import React from "react";
 import { FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa";
-import { TypeAnimation } from "react-type-animation";
 const Slider = () => {
   return (
     <div className="w-full  carousel  rounded ">

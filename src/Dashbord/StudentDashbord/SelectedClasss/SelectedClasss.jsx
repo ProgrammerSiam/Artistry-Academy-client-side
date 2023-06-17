@@ -56,7 +56,7 @@ const SelectedClasss = () => {
         <table className="table">
           {/* head */}
           <thead className="rounded-full font-bold">
-            <tr className="bg-blue-400 ">
+            <tr className="bg-white border">
               <th>SN</th>
               <th>Banner</th>
               <th>Course</th>
