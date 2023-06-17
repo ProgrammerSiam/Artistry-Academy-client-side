@@ -10,11 +10,7 @@ const Footer = () => {
             src="https://i.ibb.co/yNk1JRm/logojpeg.jpg"
             alt=""
           />
-          <p>
-            Artistry Academy Ltd.
-            <br />
-            Providing reliable tech since 1995
-          </p>
+          <p>Artistry Academy Ltd.</p>
         </div>
         <div>
           <span className="footer-title">Services</span>
@@ -37,8 +33,10 @@ const Footer = () => {
           <a className="link link-hover">Cookie policy</a>
         </div>
       </div>
-      <div className="credit text-center  bg-white">
-        <strong className="text-center">ok</strong>
+      <div className="credit text-center py-10 bg-white">
+        <span className="text-center  py-5 ">
+          © 2023 Mehedi Hasan Siam. All rights reserved.
+        </span>
       </div>
     </footer>
   );
