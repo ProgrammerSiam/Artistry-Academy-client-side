@@ -120,7 +120,7 @@ const Add_Course = () => {
 
       <div className="">
         <input
-          className="btn btn-primary mt-5  text-input"
+          className="btn border bg-white mt-5  text-input"
           type="submit"
           value="Upload Class"
         />
